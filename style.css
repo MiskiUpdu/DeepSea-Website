@@ -1,0 +1,277 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    
+    height:100vh;
+    width:100vw;
+    margin:10px;
+    
+  
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin:30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#explore{
+    background-color: white;
+    margin-top: 30px;
+    margin-left:30px;
+}
+.coral{
+    width:410px;
+    height: 400px;
+    
+}
+.image-exp{
+    width:400px;
+    height:300px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+
+.explore-content{
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+.deep-ocean{
+    width:410px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:890px;
+    margin-left: 450px;
+}
+.kelp-forest{
+    width:410px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:890px;
+    margin-left: 880px;
+}
+.ship-wrecks{
+    width:410px;
+    height: 400px;
+    margin-top:10px;
+}
+.caves{
+    width:410px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:1300px;
+    margin-left: 450px;
+}
+
+#marine_life {
+  background-color: white;
+  margin-top: 30px;
+}
+img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dolphin {
+  width: 410px;
+  height: 400px;
+  margin-left: 1px;
+  margin-top: 10px;
+}
+
+.img1 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+
+.whales {
+  width: 410px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1820px;
+  margin-left: 418px;
+}
+.img2 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+.shark {
+  width: 410px;
+  height: 400px;
+  margin-left: 5px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1820px;
+  margin-left: 832px;
+}
+.img3 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+.turtle {
+  width: 410px;
+  height: 400px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+.img4 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+.seahorse {
+  width: 410px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2230px;
+  margin-left: 418px;
+}
+.img5 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+.octopus {
+  width: 410px;
+  height: 400px;
+  margin-left: 5px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2230px;
+  margin-left: 832px;
+}
+.img6 {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+
+#atlantis{
+    background-color: white;
+    margin-top: 30px;
+}
+.ancient-ruins{
+  margin-left: 10px;
+  margin-top: 10px;
+
+  
+}
+
+.image-anc{
+    width:500px;
+    height:300px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.par-anc{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: flex;
+    position: absolute;
+    top:2800px;
+    margin-left: 550px;
+}
+ 
+.par-tres{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: flex;
+    position: absolute;
+    top:3150px;
+    margin-left: 550px;
+}
+.par-pearls{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: flex;
+    position: absolute;
+    top:3550px;
+    margin-left: 550px;
+}
+.par-broken{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: flex;
+    position: absolute;
+    top:3840px;
+    margin-left: 550px;
+
+}
+.press-btn {
+  margin-left: 570px;
+  border: none;
+  padding: 15px;
+  background-color: rgb(10, 3, 75);
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 590px;
+}
+
+#contact{
+    color: black;
+    background-color: blu;
+    text-align: center;
+    font-size: 25px;
+}
+footer{
+    text-align:center;
+    font-size:25px;
+}
+#contact a:hover{
+    background-color: lightblue;
+}
+.a1{
+  margin-left: 370px;
+}
