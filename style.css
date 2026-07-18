@@ -9,9 +9,8 @@
     height:100vh;
     width:100vw;
     margin:10px;
-    
-  
 }
+
 ul{
     display: flex;
 }
@@ -92,11 +91,7 @@ a{
   background-color: white;
   margin-top: 30px;
 }
-img {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .dolphin {
   width: 410px;
@@ -261,13 +256,15 @@ img {
 
 #contact{
     color: black;
-    background-color: blu;
+    background-color: rgb(236, 236, 240);
     text-align: center;
     font-size: 25px;
 }
 footer{
     text-align:center;
     font-size:25px;
+    background-color: rgb(236, 236, 240);
+
 }
 #contact a:hover{
     background-color: lightblue;
@@ -275,3 +272,73 @@ footer{
 .a1{
   margin-left: 370px;
 }
+
+
+@media (max-width:800px){
+
+.header{
+flex-direction: column;
+}
+
+ul{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+a{
+margin:10px;
+}
+
+.coral,
+.deep-ocean,
+.kelp-forest,
+.ship-wrecks,
+.caves,
+.dolphin,
+.whales,
+.shark,
+.turtle,
+.seahorse,
+.octopus{
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 25px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-exp,
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.image-anc{
+    width:100%;
+    height:auto;
+    max-width: 500px;
+}
+
+.par-anc,
+.par-tres,
+.par-pearls,
+.par-broken{
+    position: static;
+    margin:10px 0;
+    font-size:18px;
+}
+
+.press-btn{
+    position: static;
+    margin:20px auto;
+    display:block;
+    width: fit-content;
+}
+
+}
+
+    
+
